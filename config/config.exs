@@ -1,4 +1,4 @@
 import Config
 
-config :cpinspect,
-  greeting: "hello from dev/cpispect/config/config.exs on Jon's machine"
+config :cp_inspect,
+  greeting: "hello from dev/cp_inspect/config/config.exs on Jon's machine"

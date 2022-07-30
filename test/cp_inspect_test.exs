@@ -1,8 +1,8 @@
-defmodule CPInspectTest do
+defmodule ColorProcessInspectTest do
   use ExUnit.Case
-  doctest CPInspect
+  doctest ColorProcessInspect
 
   test "greets the world" do
-    assert CPInspect.hello() == :world
+    assert ColorProcessInspect.hello() == :world
   end
 end

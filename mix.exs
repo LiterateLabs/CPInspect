@@ -3,7 +3,7 @@ defmodule CPInspect.MixProject do
 
   def project do
     [
-      app: :cp_inspect,
+      app: :color_process_inspect,
       version: "0.1.0",
       elixir: "~> 1.14.0-dev",
       start_permanent: Mix.env() == :prod,

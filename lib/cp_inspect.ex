@@ -1,4 +1,4 @@
-defmodule CPInspect do
+defmodule ColorProcessInspect do
   use GenServer
 
   @the_types [
@@ -51,11 +51,11 @@ defmodule CPInspect do
   # client api
 
   def start_link(state) do
-    GenServer.start_link(__MODULE__, Map.merge(state, %{count: 0}), name: CPI)
+    GenServer.start_link(__MODULE__, Map.merge(state, %{count: 0}), name: CPInspect)
   end
 
   def print(data) do
-    GenServer.call(CPI, {:print, self(), data})
+    GenServer.call(CPInspect, {:print, self(), data})
   end
 
   defp prnt(cnt, pid, data, color) do

@@ -54,7 +54,7 @@ defmodule CPInspect do
     GenServer.start_link(__MODULE__, Map.merge(state, %{count: 0}), name: CPI)
   end
 
-  def inspect(data) do
+  def print(data) do
     GenServer.call(CPI, {:print, self(), data})
   end
 

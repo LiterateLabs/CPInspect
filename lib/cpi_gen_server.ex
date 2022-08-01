@@ -74,8 +74,8 @@ defmodule CPIGenServer do
   # server callbacks
   @impl true
   def init(state) do
-    IO.inspect("I am here")
-    IO.inspect(state)
+    # IO.inspect("I am here")
+    # IO.inspect(state)
     {:ok, state}
   end
 

@@ -2,7 +2,7 @@ defmodule ColorProcessInspectTest do
   use ExUnit.Case
   doctest ColorProcessInspect
 
-  test "greets the world" do
-    assert ColorProcessInspect.hello() == :world
+  test "inits the CPIGenServer" do
+    assert CPIGenServer.init(%{test: :one}) == {:ok, %{test: :one}}
   end
 end

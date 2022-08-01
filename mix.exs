@@ -33,7 +33,8 @@ defmodule CPInspect.MixProject do
 
   defp description do
     """
-    Library for debugging with colored inspect output and process tracking.
+    Library for development and debugging that provides color-coded inspect
+    output according the the process (pid) that is doing the inspecting.
     """
   end
 

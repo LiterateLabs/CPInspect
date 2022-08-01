@@ -20,7 +20,7 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-cp_inspect-*.tar
+color_process_inspect-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
